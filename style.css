@@ -1,0 +1,33 @@
+table{
+	background-color: #DCDCDC;
+}
+button{
+	width: 100px;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: silver;
+	border-radius: 10px;
+	font-size: 40pt;
+	transition: 0.2s;
+}
+button:hover{
+	background-color: darkgray;
+	box-shadow: 1px 1px 1px gray;
+	transition: 0.4s;
+}
+#zero{
+	width: 305px;
+}
+#window{
+	height: 250px;
+}
+#result{
+	font-size: 40pt;
+	text-align: right;
+}
+#block{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
